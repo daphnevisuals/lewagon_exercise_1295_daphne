@@ -18,7 +18,11 @@ body {
   --form-border-color: #ecedf2;
   --input-text-color: #8e8e90;
   --drop-shadow-color: #0000001a;
-  /* 0 3px 10px rgb(0 0 0 / 0.2); */
+  --success-color: #1c9d75;
+}
+
+.d-none {
+  display: none;
 }
 
 /* style */
@@ -142,3 +146,18 @@ select {
   top: 50%;
   right: 20px;
 } */
+
+/* styling success */
+.success {
+  background-color: white;
+  border-radius: 24px;
+  padding: 30px;
+  width: 80%;
+  margin: 0 auto;
+}
+.success p {
+  text-align: center;
+}
+.success-text {
+  color: #1c9d75;
+}
