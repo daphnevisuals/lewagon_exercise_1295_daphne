@@ -28,7 +28,8 @@ ul {
   width: 100%;
   display: flex;
   flex-direction: column;
-  gap: 20px;
+  gap: 15px;
+  margin-bottom: 20px;
 }
 
 li {
@@ -75,9 +76,13 @@ header img {
 }
 
 h2 {
-  font-size: 40px;
+  font-size: 45px;
   text-align: center;
   font-weight: 700;
+  margin-bottom: 30px;
+}
+.enhance-text {
+  color: var(--enhance-color);
 }
 
 .form {
@@ -85,6 +90,8 @@ h2 {
   box-shadow: 0 3px 10px var(--drop-shadow-color);
   padding: 40px 30px;
   border-radius: 24px;
+  width: 80%;
+  margin: 0 auto;
 }
 
 h3 {
@@ -92,6 +99,7 @@ h3 {
   margin-bottom: 15px;
   text-align: left;
   width: 100%;
+  font-size: 24px;
 }
 
 label {
@@ -110,7 +118,8 @@ label {
   margin-bottom: 0;
 }
 
-input {
+input,
+select {
   border: 2px solid var(--form-border-color);
   color: var(--input-text-color);
   padding: 15px;
@@ -118,3 +127,17 @@ input {
   font-family: "Work Sans", sans-serif;
   font-size: 12px;
 }
+
+.button {
+  background-color: var(--enhance-color);
+  color: white;
+  font-weight: 600;
+  font-size: 13px;
+}
+
+/* trying to custom the arrow is taking a bit of time so i'm starting javascript with submit
+.custom-select::after {
+  position: relative;
+  top: 50%;
+  right: 20px;
+} */
