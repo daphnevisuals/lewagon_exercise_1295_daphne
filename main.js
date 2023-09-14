@@ -7,7 +7,6 @@ const form = document.querySelector("#userForm");
 form.addEventListener("submit", (event) => {
   event.preventDefault();
   let children = event.target.querySelectorAll("input, checkbox, select");
-  console.log(children);
   let findEmpty = Array.from(children).find((element) => {
     if (element.value.length < 1) {
       return true;
