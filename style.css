@@ -132,6 +132,16 @@ select {
   font-size: 12px;
 }
 
+select {
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  appearance: none;
+  background-image: url("/img/chevron-down.svg");
+  background-repeat: no-repeat, repeat;
+  background-position: right 1.5em top 50%, 0 0;
+  background-size: 1em auto, 100%;
+}
+
 .button {
   background-color: var(--enhance-color);
   color: white;
