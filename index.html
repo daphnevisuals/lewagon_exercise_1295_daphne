@@ -1,20 +1,68 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Webistry x LeWagon</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-<main>
-    <h1>Good luck!</h1>
-    <div></div>
-</main>
-<script src="main.js"></script>
-</body>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main>
+      <!-- first, I'm creating the structure of the page. -->
+      <header>
+        <img src="img/webistry-logo.svg" alt="webistry logo" />
+        <img
+          src="img/lewagon-logo.svg"
+          class="lewagon-logo"
+          alt="lewagon logo"
+        />
+      </header>
+      <div class="container">
+        <h2>
+          <span class="enhance-text">Level</span> up your coding skills with
+          webistry.
+        </h2>
+        <div class="form">
+          <form>
+            <h3>Let's get started by knowing more about you</h3>
+            <ul>
+              <li>
+                <label for="name">Name</label>
+                <input type="text" id="name" placeholder="Enter your name" />
+              </li>
+              <li>
+                <label for="email">Email</label>
+                <input type="email" id="name" placeholder="Enter your email" />
+              </li>
+              <li>
+                <label for="language"
+                  >What's your favorite coding language ?</label
+                ><select name="language" id="language">
+                  <option value="indian">JavaScript</option>
+                  <option value="nepali">HTML</option>
+                  <option value="others">CSS</option>
+                </select>
+              </li>
+              <li class="checkbox">
+                <input type="checkbox" id="check" />
+                <label for="check"
+                  >The information provided above is accurate</label
+                >
+              </li>
+            </ul>
+
+            <input type="button" class="button" value="Level Up" />
+          </form>
+        </div>
+      </div>
+    </main>
+    <script src="main.js"></script>
+  </body>
 </html>
