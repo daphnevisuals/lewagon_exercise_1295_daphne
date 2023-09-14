@@ -140,11 +140,11 @@ select {
   cursor: pointer;
 }
 
-/* trying to custom the arrow is taking a bit of time so i'm starting javascript with submit
-.custom-select::after {
-  position: relative;
+/* trying to custom the arrow is taking a bit of time so i'm starting javascript with submit */
+/* select::after {
+  position: absolute;
   top: 50%;
-  right: 20px;
+  right: -20px;
 } */
 
 /* styling success */
