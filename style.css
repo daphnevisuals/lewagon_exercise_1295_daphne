@@ -159,5 +159,5 @@ select {
   text-align: center;
 }
 .success-text {
-  color: #1c9d75;
+  color: var(--success-color);
 }
