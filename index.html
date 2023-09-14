@@ -30,28 +30,43 @@
           webistry.
         </h2>
         <div class="form">
-          <form>
+          <form id="userForm">
             <h3>Let's get started by knowing more about you</h3>
             <ul>
               <li>
                 <label for="name">Name</label>
-                <input type="text" id="name" placeholder="Enter your name" />
+                <input
+                  type="text"
+                  id="name"
+                  placeholder="Enter your name"
+                  required
+                />
               </li>
               <li>
                 <label for="email">Email</label>
-                <input type="email" id="name" placeholder="Enter your email" />
+                <input
+                  type="email"
+                  id="name"
+                  placeholder="Enter your email"
+                  required
+                />
               </li>
               <li>
                 <label for="language"
                   >What's your favorite coding language ?</label
-                ><select class="custom-select" name="language" id="language">
+                ><select
+                  class="custom-select"
+                  name="language"
+                  id="language"
+                  required
+                >
                   <option value="indian">JavaScript</option>
                   <option value="nepali">HTML</option>
                   <option value="others">CSS</option>
                 </select>
               </li>
               <li class="checkbox">
-                <input type="checkbox" id="check" />
+                <input type="checkbox" id="check" required />
                 <label for="check"
                   >The information provided above is accurate</label
                 >
